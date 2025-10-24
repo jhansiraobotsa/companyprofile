@@ -8,7 +8,7 @@ export default function SolutionSectionExample() {
       id="conversational"
       icon={MessageSquare}
       title="AI Conversational Platform"
-      subtitle="Intelligent Communication"
+      subtitle="Vyoma.ai"
       description="Deploy intelligent conversational AI that understands intent, speaks multiple languages, and integrates seamlessly with your databases for automated customer support and engagement."
       features={[
         {

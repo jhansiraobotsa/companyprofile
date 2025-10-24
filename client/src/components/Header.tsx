@@ -24,12 +24,6 @@ const solutions = [
     icon: FileText,
   },
   {
-    id: "vision",
-    title: "Vision Intelligence",
-    description: "Analyze images and media for insights",
-    icon: Eye,
-  },
-  {
     id: "workflow",
     title: "Workflow & Process Automation",
     description: "Agentic AI workflows for efficiency",
@@ -90,7 +84,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-lg border-b" : "bg-transparent"
+        isScrolled ? "bg-primary/90 backdrop-blur-lg border-b" : "bg-primary/80"
       }`}
       data-testid="header-main"
     >

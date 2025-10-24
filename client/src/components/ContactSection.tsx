@@ -17,7 +17,7 @@ import { useToast } from "@/hooks/use-toast";
 const solutions = [
   "AI Conversational Platform",
   "Intelligent Document Extraction",
-  "Vision Intelligence",
+  // "Vision Intelligence",
   "Workflow & Process Automation",
   "Web Scraping AI Bots",
   "Data Consolidation & Analysis",
@@ -237,7 +237,7 @@ export default function ContactSection() {
                   <div>
                     <div className="font-semibold mb-1">Email</div>
                     <div className="text-muted-foreground">
-                      contact@techraq.com
+                      info@techraq.com
                     </div>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export default function ContactSection() {
                   <div>
                     <div className="font-semibold mb-1">Phone</div>
                     <div className="text-muted-foreground">
-                      +1 (555) 123-4567
+                      +91 708 899 9922
                     </div>
                   </div>
                 </div>
@@ -261,7 +261,7 @@ export default function ContactSection() {
                   <div>
                     <div className="font-semibold mb-1">Office</div>
                     <div className="text-muted-foreground">
-                      Silicon Valley, CA
+                      Silicon Valley, Madhapur (HYD), India
                     </div>
                   </div>
                 </div>

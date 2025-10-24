@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© 2024 TechRAQ. All rights reserved.</p>
+          <p>© 2023 TechRAQ. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -31,7 +31,7 @@ export default function Home() {
         id="conversational"
         icon={MessageSquare}
         title="AI Conversational Platform"
-        subtitle="Intelligent Communication"
+        subtitle="Vyoma.ai"
         description="Deploy intelligent conversational AI that understands intent, speaks multiple languages, and integrates seamlessly with your databases for automated customer support and engagement."
         features={[
           {
@@ -53,6 +53,7 @@ export default function Home() {
         ]}
         imageSrc={chatbotImage}
         imageAlt="AI Conversational Platform Interface"
+        reversed
         stats={[
           { value: "24/7", label: "Availability" },
           { value: "95%", label: "Accuracy" },
@@ -63,8 +64,8 @@ export default function Home() {
           id="document"
         icon={FileText}
         title="Intelligent Document Extraction"
-        subtitle="Smart Data Extraction"
-        description="Extract critical information from contracts, invoices, reports, PDFs, and web repositories with unparalleled accuracy. Perfect for recruiting, compliance, and financial analysis."
+        subtitle="Smart Data Extraction (OCR & Vision AI)"
+        description="Extract key data from contracts, invoices, reports, PDFs, images, and web sources with advanced OCR and vision AI—even from handwritten text. Ideal for recruiting, compliance, and finance."
         features={[
           {
             title: "Contract Analysis",
@@ -85,7 +86,7 @@ export default function Home() {
         ]}
         imageSrc={documentImage}
         imageAlt="Intelligent Document Extraction Interface"
-        reversed
+        // reversed
         stats={[
           { value: "99.5%", label: "Accuracy" },
           { value: "10x", label: "Faster" },
@@ -93,7 +94,7 @@ export default function Home() {
         badges={["PDF", "DOCX", "Images", "Web"]}
         />
 
-        <SolutionSection
+        {/* <SolutionSection
           id="vision"
         icon={Eye}
         title="Vision Intelligence"
@@ -120,7 +121,7 @@ export default function Home() {
         imageSrc={visionImage}
         imageAlt="Vision Intelligence Analysis Dashboard"
         badges={["Healthcare", "Retail", "Security", "Manufacturing"]}
-        />
+        /> */}
 
         <SolutionSection
           id="workflow"
