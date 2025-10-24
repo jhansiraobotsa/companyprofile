@@ -180,14 +180,30 @@ export default function SolutionSection({
               </div>
             )}
             
-            <Button
-              onClick={scrollToContact}
-              size="lg"
-              className="bg-gradient-to-r from-primary to-purple-700"
-              data-testid={`button-learn-more-${id}`}
-            >
-              Learn More
-            </Button>
+            {title === "AI Conversational Platform" ? (
+              <a
+                href="http://localhost:3001"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid={`button-try-vyoma-${id}`}
+              >
+                <Button
+                  size="sm"
+                  className="bg-gradient-to-r from-primary to-purple-700 w-fit px-4 py-2 text-base font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-200"
+                >
+                  Try Vyoma.ai Now
+                </Button>
+              </a>
+            ) : (
+              <Button
+                onClick={scrollToContact}
+                size="lg"
+                className="bg-gradient-to-r from-primary to-purple-700"
+                data-testid={`button-learn-more-${id}`}
+              >
+                Learn More
+              </Button>
+            )}
           </div>
           
           <div
