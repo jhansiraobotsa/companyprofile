@@ -182,7 +182,7 @@ export default function SolutionSection({
             
             {title === "AI Conversational Platform" ? (
               <a
-                href="http://localhost:3001"
+                href="https://vyomai.techraq.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid={`button-try-vyoma-${id}`}
